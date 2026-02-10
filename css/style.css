@@ -49,6 +49,10 @@ body{
 .navbar {
   padding: 0.2rem 1rem;
 }
+.navbar .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
   /* fixing horizontal flow */
   html, body { overflow-x: hidden; } /* last resort */
