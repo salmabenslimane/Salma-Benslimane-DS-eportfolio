@@ -137,6 +137,12 @@ h1, h2, h3,
   padding: 30px 0;       /* equal top & bottom */
 }
 
+.home img {
+  max-height: 520px;   /* adjust once, stays consistent */
+  width: auto;
+}
+
+
 .home h2{
   font-size: clamp(1.6rem, 4vw, 3rem);
     line-height: 4rem;
