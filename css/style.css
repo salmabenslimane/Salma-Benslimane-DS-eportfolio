@@ -7,22 +7,23 @@ body{
 /* styling menu icon */
 /* Make hamburger/menu icon bold too */
 
-
+.nav-bg {
+    background: linear-gradient(33deg,
+        #fff3e0 0%,   /* pale orange flash */
+        #f7e8ff 40%,  /* pale orchid */
+        #6f34fe 100%  /* brand purple */
+    );
+    padding: 30px 0 10px 0;
+}
 .nav-menu {
-  border: none;
-  background-color: #fff;
-  font-size: 1.5rem;
-  color: #fca61f;
-  font-weight: 700; /* <-- bold */
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #fca61f;
+    font-weight: 700; /* <-- bold */
 }
 
 /* Make navbar links bold and improve focus accessibility */
-.navbar-nav a{
-  color: black;
-  position: relative;
-  font-family: 'Josefin Sans', sans-serif;
-  text-decoration: none;   /* ensure no underline by default */
-}
 .navbar-nav a {
   color: black;
   position: relative;
@@ -32,7 +33,6 @@ body{
   font-weight: 700;      /* ⬅ bold */
   letter-spacing: 0.5px; /* ⬅ subtle premium feel */
 }
-
 
 .navbar-nav a:hover{
     color: #fca61f;
@@ -54,6 +54,9 @@ body{
     width: 100%; 
     left: 0; 
   }
+.navbar-nav {
+  align-items: center;
+}
 
   
 
