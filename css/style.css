@@ -46,6 +46,11 @@ body{
     left: 0; 
   }
 
+.navbar {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
   /* fixing horizontal flow */
   html, body { overflow-x: hidden; } /* last resort */
 .home img { max-width: 100%; height: auto; display:block; } /* avoid overflowing images */
