@@ -131,7 +131,7 @@ h1, h2, h3,
     #fff3e0 0%,
     #f7e8ff 40%,
     #6f34fe 100%
-  )   
+  );
 }
 
 
@@ -231,8 +231,8 @@ h1, h2, h3,
 
 /* All internship logos get same max dimensions */
 .internship-logo {
-  max-width: 150px;
-  max-height: 120px;
+  max-width: 200px;
+  max-height: 200px;
   width: auto;
   height: auto;
   object-fit: contain;
